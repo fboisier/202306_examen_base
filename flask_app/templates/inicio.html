@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block estilos %}
+{% endblock %}
+
+{% block menu %}
+{% include 'menu.html' %}
+{% endblock %}
+
+{% block contenido %}
+    <h1>Bienvenido al sistema {{session.usuario.email}}</h1>
+{% endblock %}
